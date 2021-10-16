@@ -10,6 +10,6 @@ class HomeController extends Controller
     {
         
         //return $user;
-        return view('template_backend.index');
+        return view('backend.index');
     }
 }
