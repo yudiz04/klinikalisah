@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SpecialistController;
+use App\Http\Controllers\DoctorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/home', [HomeController::class, 'index']);
+Route::resource('specialist', SpecialistController::class);
+Route::resource('doctor', DoctorController::class);

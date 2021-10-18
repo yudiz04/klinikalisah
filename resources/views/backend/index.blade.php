@@ -3,176 +3,421 @@
 
 
 @section('content')
-<!-- Start Welcome area -->
-    <div class="all-content-wrapper">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="logo-pro">
-                        <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
-                    </div>
-                </div>
+<div class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card card-stats">
+            <div class="card-header card-header-warning card-header-icon">
+              <div class="card-icon">
+                <i class="material-icons">content_copy</i>
+              </div>
+              <p class="card-category">Used Space</p>
+              <h3 class="card-title">49/50
+                <small>GB</small>
+              </h3>
             </div>
-        </div>
-        <div class="header-advance-area">
-            
-            
-            
-            <div class="breadcome-area">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="breadcome-list">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                        <div class="breadcomb-wp">
-											<div class="breadcomb-icon">
-												<i class="icon nalika-home"></i>
-											</div>
-											<div class="breadcomb-ctn">
-												<h2>Dashboard</h2>
-												<p>Welcome to KLINIKALISAH <span class="bread-ntd">Admin</span></p>
-											</div>
-										</div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                        <div class="breadcomb-report">
-											<button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="icon nalika-download"></i></button>
-										</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="card-footer">
+              <div class="stats">
+                <i class="material-icons text-danger">warning</i>
+                <a href="javascript:;">Get More Space...</a>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="section-admin container-fluid res-mg-t-15">
-            <div class="row admin text-center">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="admin-content analysis-progrebar-ctn">
-                                <h4 class="text-left text-uppercase"><b>Orders</b></h4>
-                                <div class="row vertical-center-box vertical-center-box-tablet">
-                                    <div class="col-xs-3 mar-bot-15 text-left">
-                                        <label class="label bg-green">30% <i class="fa fa-level-up" aria-hidden="true"></i></label>
-                                    </div>
-                                    <div class="col-xs-9 cus-gh-hd-pro">
-                                        <h2 class="text-right no-margin">10,000</h2>
-                                    </div>
-                                </div>
-                                <div class="progress progress-mini">
-                                    <div style="width: 78%;" class="progress-bar bg-green"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="margin-bottom:1px;">
-                            <div class="admin-content analysis-progrebar-ctn res-mg-t-30">
-                                <h4 class="text-left text-uppercase"><b>Tax Deduction</b></h4>
-                                <div class="row vertical-center-box vertical-center-box-tablet">
-                                    <div class="text-left col-xs-3 mar-bot-15">
-                                        <label class="label bg-red">15% <i class="fa fa-level-down" aria-hidden="true"></i></label>
-                                    </div>
-                                    <div class="col-xs-9 cus-gh-hd-pro">
-                                        <h2 class="text-right no-margin">5,000</h2>
-                                    </div>
-                                </div>
-                                <div class="progress progress-mini">
-                                    <div style="width: 38%;" class="progress-bar progress-bar-danger bg-red"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="admin-content analysis-progrebar-ctn res-mg-t-30">
-                                <h4 class="text-left text-uppercase"><b>Revenue</b></h4>
-                                <div class="row vertical-center-box vertical-center-box-tablet">
-                                    <div class="text-left col-xs-3 mar-bot-15">
-                                        <label class="label bg-blue">50% <i class="fa fa-level-up" aria-hidden="true"></i></label>
-                                    </div>
-                                    <div class="col-xs-9 cus-gh-hd-pro">
-                                        <h2 class="text-right no-margin">$70,000</h2>
-                                    </div>
-                                </div>
-                                <div class="progress progress-mini">
-                                    <div style="width: 60%;" class="progress-bar bg-blue"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="admin-content analysis-progrebar-ctn res-mg-t-30">
-                                <h4 class="text-left text-uppercase"><b>Yearly Sales</b></h4>
-                                <div class="row vertical-center-box vertical-center-box-tablet">
-                                    <div class="text-left col-xs-3 mar-bot-15">
-                                        <label class="label bg-purple">80% <i class="fa fa-level-up" aria-hidden="true"></i></label>
-                                    </div>
-                                    <div class="col-xs-9 cus-gh-hd-pro">
-                                        <h2 class="text-right no-margin">$100,000</h2>
-                                    </div>
-                                </div>
-                                <div class="progress progress-mini">
-                                    <div style="width: 60%;" class="progress-bar bg-purple"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card card-stats">
+            <div class="card-header card-header-success card-header-icon">
+              <div class="card-icon">
+                <i class="material-icons">store</i>
+              </div>
+              <p class="card-category">Revenue</p>
+              <h3 class="card-title">$34,245</h3>
             </div>
+            <div class="card-footer">
+              <div class="stats">
+                <i class="material-icons">date_range</i> Last 24 Hours
+              </div>
+            </div>
+          </div>
         </div>
-
-    <!-- jquery
-		============================================ -->
-    <script src="{{asset('js/vendor/jquery-1.12.4.min.js')}}"></script>
-    <!-- bootstrap JS
-		============================================ -->
-    <script src="{{asset('js/bootstrap.min.js')}}"></script>
-    <!-- wow JS
-		============================================ -->
-    <script src="{{asset('js/wow.min.js')}}"></script>
-    <!-- price-slider JS
-		============================================ -->
-    <script src="{{asset('js/jquery-price-slider.js')}}"></script>
-    <!-- meanmenu JS
-		============================================ -->
-    <script src="{{asset('js/jquery.meanmenu.js')}}"></script>
-    <!-- owl.carousel JS
-		============================================ -->
-    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
-    <!-- sticky JS
-		============================================ -->
-    <script src="{{asset('js/jquery.sticky.js')}}"></script>
-    <!-- scrollUp JS
-		============================================ -->
-    <script src="{{asset('js/jquery.scrollUp.min.js')}}"></script>
-    <!-- mCustomScrollbar JS
-		============================================ -->
-    <script src="{{asset('js/scrollbar/jquery.mCustomScrollbar.concat.min.js')}}"></script>
-    <script src="{{asset('js/scrollbar/mCustomScrollbar-active.js')}}"></script>
-    <!-- metisMenu JS
-		============================================ -->
-    <script src="{{asset('js/metisMenu/metisMenu.min.js')}}"></script>
-    <script src="{{asset('js/metisMenu/metisMenu-active.js')}}"></script>
-    <!-- sparkline JS
-		============================================ -->
-    <script src="{{asset('js/sparkline/jquery.sparkline.min.js')}}"></script>
-    <script src="{{asset('js/sparkline/jquery.charts-sparkline.js')}}"></script>
-    <!-- calendar JS
-		============================================ -->
-    <script src="{{asset('js/calendar/moment.min.js')}}"></script>
-    <script src="{{asset('js/calendar/fullcalendar.min.js')}}"></script>
-    <script src="{{asset('js/calendar/fullcalendar-active.js')}}"></script>
-	<!-- float JS
-		============================================ -->
-    <script src="{{asset('js/flot/jquery.flot.js')}}"></script>
-    <script src="{{asset('js/flot/jquery.flot.resize.js')}}"></script>
-    <script src="{{asset('js/flot/curvedLines.js')}}"></script>
-    <script src="{{asset('js/flot/flot-active.js')}}"></script>
-    <!-- plugins JS
-		============================================ -->
-    <script src="{{asset('js/plugins.js')}}"></script>
-    <!-- main JS
-		============================================ -->
-    <script src="{{asset('js/main.js')}}"></script>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card card-stats">
+            <div class="card-header card-header-danger card-header-icon">
+              <div class="card-icon">
+                <i class="material-icons">info_outline</i>
+              </div>
+              <p class="card-category">Fixed Issues</p>
+              <h3 class="card-title">75</h3>
+            </div>
+            <div class="card-footer">
+              <div class="stats">
+                <i class="material-icons">local_offer</i> Tracked from Github
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+              <div class="card-icon">
+                <i class="fa fa-twitter"></i>
+              </div>
+              <p class="card-category">Followers</p>
+              <h3 class="card-title">+245</h3>
+            </div>
+            <div class="card-footer">
+              <div class="stats">
+                <i class="material-icons">update</i> Just Updated
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-chart">
+            <div class="card-header card-header-success">
+              <div class="ct-chart" id="dailySalesChart"></div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Daily Sales</h4>
+              <p class="card-category">
+                <span class="text-success"><i class="fa fa-long-arrow-up"></i> 55% </span> increase in today sales.</p>
+            </div>
+            <div class="card-footer">
+              <div class="stats">
+                <i class="material-icons">access_time</i> updated 4 minutes ago
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-chart">
+            <div class="card-header card-header-warning">
+              <div class="ct-chart" id="websiteViewsChart"></div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Email Subscriptions</h4>
+              <p class="card-category">Last Campaign Performance</p>
+            </div>
+            <div class="card-footer">
+              <div class="stats">
+                <i class="material-icons">access_time</i> campaign sent 2 days ago
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-chart">
+            <div class="card-header card-header-danger">
+              <div class="ct-chart" id="completedTasksChart"></div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Completed Tasks</h4>
+              <p class="card-category">Last Campaign Performance</p>
+            </div>
+            <div class="card-footer">
+              <div class="stats">
+                <i class="material-icons">access_time</i> campaign sent 2 days ago
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-header card-header-tabs card-header-primary">
+              <div class="nav-tabs-navigation">
+                <div class="nav-tabs-wrapper">
+                  <span class="nav-tabs-title">Tasks:</span>
+                  <ul class="nav nav-tabs" data-tabs="tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#profile" data-toggle="tab">
+                        <i class="material-icons">bug_report</i> Bugs
+                        <div class="ripple-container"></div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#messages" data-toggle="tab">
+                        <i class="material-icons">code</i> Website
+                        <div class="ripple-container"></div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#settings" data-toggle="tab">
+                        <i class="material-icons">cloud</i> Server
+                        <div class="ripple-container"></div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="tab-content">
+                <div class="tab-pane active" id="profile">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" value="" checked>
+                              <span class="form-check-sign">
+                                <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>Sign contract for "What are conference organizers afraid of?"</td>
+                        <td class="td-actions text-right">
+                          <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                          </button>
+                          <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" value="">
+                              <span class="form-check-sign">
+                                <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
+                        <td class="td-actions text-right">
+                          <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                          </button>
+                          <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" value="">
+                              <span class="form-check-sign">
+                                <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
+                        </td>
+                        <td class="td-actions text-right">
+                          <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                          </button>
+                          <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" value="" checked>
+                              <span class="form-check-sign">
+                                <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>Create 4 Invisible User Experiences you Never Knew About</td>
+                        <td class="td-actions text-right">
+                          <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                          </button>
+                          <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane" id="messages">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" value="" checked>
+                              <span class="form-check-sign">
+                                <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
+                        </td>
+                        <td class="td-actions text-right">
+                          <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                          </button>
+                          <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" value="">
+                              <span class="form-check-sign">
+                                <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>Sign contract for "What are conference organizers afraid of?"</td>
+                        <td class="td-actions text-right">
+                          <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                          </button>
+                          <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="tab-pane" id="settings">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" value="">
+                              <span class="form-check-sign">
+                                <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
+                        <td class="td-actions text-right">
+                          <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                          </button>
+                          <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" value="" checked>
+                              <span class="form-check-sign">
+                                <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
+                        </td>
+                        <td class="td-actions text-right">
+                          <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                          </button>
+                          <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" value="" checked>
+                              <span class="form-check-sign">
+                                <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                        </td>
+                        <td>Sign contract for "What are conference organizers afraid of?"</td>
+                        <td class="td-actions text-right">
+                          <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                          </button>
+                          <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-header card-header-warning">
+              <h4 class="card-title">Employees Stats</h4>
+              <p class="card-category">New employees on 15th September, 2016</p>
+            </div>
+            <div class="card-body table-responsive">
+              <table class="table table-hover">
+                <thead class="text-warning">
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>Salary</th>
+                  <th>Country</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Dakota Rice</td>
+                    <td>$36,738</td>
+                    <td>Niger</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Minerva Hooper</td>
+                    <td>$23,789</td>
+                    <td>Curaçao</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Sage Rodriguez</td>
+                    <td>$56,142</td>
+                    <td>Netherlands</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Philip Chaney</td>
+                    <td>$38,735</td>
+                    <td>Korea, South</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 @endsection
